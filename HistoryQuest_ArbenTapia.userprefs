@@ -1,0 +1,23 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Chapter2\Mission.cs">
+    <Files>
+      <File FileName="Assets\Chapter2\CustomGameObj.cs" Line="23" Column="1" />
+      <File FileName="Assets\Chapter2\InteractiveObj.cs" Line="28" Column="2" />
+      <File FileName="Assets\Chapter2\ObjectInteraction.cs" Line="27" Column="1" />
+      <File FileName="Assets\Chapter2\InventoryManager.cs" Line="106" Column="19" />
+      <File FileName="Assets\Chapter2\InventoryItem.cs" Line="10" Column="2" />
+      <File FileName="Assets\Chapter2\MissionMgr.cs" Line="67" Column="5" />
+      <File FileName="Assets\Chapter2\MissionToken.cs" Line="1" Column="1" />
+      <File FileName="Assets\Chapter2\Mission.cs" Line="30" Column="2" />
+      <File FileName="Assets\Chapter2\SimpleLifespanScript.cs" Line="7" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\atapia\Desktop\HistoryQuest_ArbenTapia\Assets\Chapter2\MissionMgr.cs" line="66" column="13" />
+      <Breakpoint file="C:\Users\atapia\Desktop\HistoryQuest_ArbenTapia\Assets\Chapter2\Mission.cs" line="26" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
