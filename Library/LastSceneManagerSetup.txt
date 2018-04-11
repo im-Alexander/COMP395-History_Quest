@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Chapter3/prefabFactory.unity
+- path: Assets/Scenes/prefabFactory.unity
   isLoaded: 1
   isActive: 1
