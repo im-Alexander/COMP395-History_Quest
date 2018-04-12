@@ -60,6 +60,10 @@
      <Compile Include="Assets\Chapter2\MissionToken.cs" />
      <Compile Include="Assets\Chapter2\ObjectInteraction.cs" />
      <Compile Include="Assets\Chapter2\SimpleLifespanScript.cs" />
+     <Compile Include="Assets\Chapter3\MissionManegerHelper.cs" />
+     <Compile Include="Assets\Chapter3\MonumentMgr.cs" />
+     <Compile Include="Assets\Chapter3\SetupMissionOne.cs" />
+     <Compile Include="Assets\Chapter3\TriviaCardScript.cs" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>E:/Zer0_Storage/Alex Homework/_Winter 2018/COMP 395/ClassWork/HistoryQuest_AlexanderSikalevski/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>

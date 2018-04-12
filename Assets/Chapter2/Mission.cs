@@ -18,6 +18,9 @@ public class Mission {
 	public string displayName; //describe mission here
 	public string description;
 
+	public bool activated = false;
+	public bool visable = false;
+
 	public void InvokeReward(){
 		Debug.Log ("In InvokeReward:reward=");
 		Debug.Log (reward);
