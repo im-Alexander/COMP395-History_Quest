@@ -51,19 +51,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Chapter2\CustomGameObj.cs" />
-     <Compile Include="Assets\Chapter2\InteractiveObj.cs" />
-     <Compile Include="Assets\Chapter2\InventoryItem.cs" />
-     <Compile Include="Assets\Chapter2\InventoryManager.cs" />
-     <Compile Include="Assets\Chapter2\Mission.cs" />
-     <Compile Include="Assets\Chapter2\MissionMgr.cs" />
-     <Compile Include="Assets\Chapter2\MissionToken.cs" />
-     <Compile Include="Assets\Chapter2\ObjectInteraction.cs" />
-     <Compile Include="Assets\Chapter2\SimpleLifespanScript.cs" />
-     <Compile Include="Assets\Chapter3\MissionManegerHelper.cs" />
-     <Compile Include="Assets\Chapter3\MonumentMgr.cs" />
-     <Compile Include="Assets\Chapter3\SetupMissionOne.cs" />
-     <Compile Include="Assets\Chapter3\TriviaCardScript.cs" />
+     <Compile Include="Assets\Chapter2\Scripts\CustomGameObj.cs" />
+     <Compile Include="Assets\Chapter2\Scripts\InteractiveObj.cs" />
+     <Compile Include="Assets\Chapter2\Scripts\InventoryItem.cs" />
+     <Compile Include="Assets\Chapter2\Scripts\InventoryManager.cs" />
+     <Compile Include="Assets\Chapter2\Scripts\Mission.cs" />
+     <Compile Include="Assets\Chapter2\Scripts\MissionMgr.cs" />
+     <Compile Include="Assets\Chapter2\Scripts\MissionToken.cs" />
+     <Compile Include="Assets\Chapter2\Scripts\ObjectInteraction.cs" />
+     <Compile Include="Assets\Chapter2\Scripts\SimpleLifespanScript.cs" />
+     <Compile Include="Assets\Chapter3\Scripts\MissionManegerHelper.cs" />
+     <Compile Include="Assets\Chapter3\Scripts\MonumentMgr.cs" />
+     <Compile Include="Assets\Chapter3\Scripts\SetupMissionOne.cs" />
+     <Compile Include="Assets\Chapter3\Scripts\TriviaCardScript.cs" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>E:/Zer0_Storage/Alex Homework/_Winter 2018/COMP 395/ClassWork/HistoryQuest_AlexanderSikalevski/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
