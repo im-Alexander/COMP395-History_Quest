@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class InteractiveObj : MonoBehaviour {
 	public Vector3 rotAxis;
 	public float rotSpeed;
-	private CustomGameObj customGameObj;
-	//private CustomGameObj.CustomObjectType customObjectType;
+	public Material historyFact;
 	public ObjectInteraction OnCloseEnough;
+	public FactDisplayManager factDisplayer;
+
+	private CustomGameObj customGameObj;
 
 	// Use this for initialization
 	void Start () {
@@ -26,9 +29,9 @@ public class InteractiveObj : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 		if (other.gameObject.tag == "Player") {
 			if (OnCloseEnough != null) {
+				factDisplayer.displayFactImage (historyFact);
 				OnCloseEnough.HandleInteraction ();
 			}
 		}
 	}
-
 }

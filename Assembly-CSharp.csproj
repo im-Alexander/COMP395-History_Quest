@@ -60,6 +60,7 @@
      <Compile Include="Assets\Chapter2\Scripts\MissionToken.cs" />
      <Compile Include="Assets\Chapter2\Scripts\ObjectInteraction.cs" />
      <Compile Include="Assets\Chapter2\Scripts\SimpleLifespanScript.cs" />
+     <Compile Include="Assets\Chapter3\Scripts\FactDisplayManager.cs" />
      <Compile Include="Assets\Chapter3\Scripts\MissionManegerHelper.cs" />
      <Compile Include="Assets\Chapter3\Scripts\MonumentMgr.cs" />
      <Compile Include="Assets\Chapter3\Scripts\SetupMissionOne.cs" />

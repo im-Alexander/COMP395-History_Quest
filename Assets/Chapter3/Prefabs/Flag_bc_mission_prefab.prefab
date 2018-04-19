@@ -707,6 +707,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotAxis: {x: 0, y: 1, z: 0}
   rotSpeed: 40
+  historyFact: {fileID: 2100000, guid: eee564c23ab15534e9b530a7d0bf0187, type: 2}
   OnCloseEnough: {fileID: 114091612382582636}
 --- !u!114 &114899746419100464
 MonoBehaviour:
