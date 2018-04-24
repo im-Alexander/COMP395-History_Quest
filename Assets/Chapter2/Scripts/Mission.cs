@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [System.Serializable]
 public class Mission {
@@ -21,6 +22,9 @@ public class Mission {
 	public bool activated = false;
 	public bool visable = false;
 
+	private float count;
+	private float questItems;
+
 	public void InvokeReward(){
 		Debug.Log ("In InvokeReward:reward=");
 		Debug.Log (reward);
@@ -28,7 +32,21 @@ public class Mission {
 		Debug.Log (reward);
 		GameObject.Instantiate(reward,mgrGO.transform);
 		this.status = MissionStatus.Completed;
+
+		questItems = tokens.Count;
+		count++;
+		if (count >= questItems) {
+			displayFinishText ();
+		}
 	}
 
+	void displayFinishText(){
+		Text text = reward.GetComponent ("Text") as Text;
+		text.enabled = true;
+	}
 
+	void hideFinishText(){
+		Text text = reward.GetComponent ("Text") as Text;
+		text.enabled = false;
+	}
 }

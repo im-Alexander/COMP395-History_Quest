@@ -5,32 +5,46 @@ using UnityEngine.UI;
 
 public class FactDisplayManager : MonoBehaviour {
 	public float targetTime = 0f;
+	public bool buttonEnabled;
+	public GameObject hideButton;
+
+	private float saveTime;
+	private Image hideButtonImage;
 
 	// Use this for initialization
 	void Start () {
-		
+		saveTime = targetTime;
+		targetTime = 0;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (targetTime > 0.0f) {
-			targetTime -= Time.deltaTime;
-			Debug.Log (targetTime);
-		} else {
-			hideFactImage ();
+		if (buttonEnabled == false) {
+			if (targetTime > 0.0f) {
+				targetTime -= Time.deltaTime;
+			} else {
+				hideFactImage ();
+			}
 		}
 	}
 
 	public void displayFactImage(Material historyFact){
-		targetTime = 5.0f;
+		if (buttonEnabled == false) {
+			targetTime = saveTime;
+		} else {
+			hideButtonImage = hideButton.GetComponent("Image") as Image;
+			hideButtonImage.enabled = true;
+			Debug.Log ("Test");
+		}
 		Image image = GameObject.FindGameObjectWithTag ("HistoryFactUI").GetComponent ("Image") as Image;
 		image.enabled = true;
 		image.material = historyFact;
 	}
 
-	void hideFactImage(){
+	public void hideFactImage(){
 		Image image = GameObject.FindGameObjectWithTag ("HistoryFactUI").GetComponent ("Image") as Image;
 		image.enabled = false;
-		//image.material = null;
+		hideButtonImage = hideButton.GetComponent("Image") as Image;
+		hideButtonImage.enabled = false;
 	}
 }

@@ -1,6 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Chapter3\Scripts\FactDisplayManager.cs">
+    <Files>
+      <File FileName="Assets\Chapter3\Scripts\FactDisplayManager.cs" Line="48" Column="34" />
+      <File FileName="Assets\Chapter2\Scripts\InteractiveObj.cs" Line="1" Column="1" />
+      <File FileName="Assets\Chapter2\Scripts\MissionMgr.cs" Line="66" Column="23" />
+      <File FileName="Assets\Chapter2\Scripts\Mission.cs" Line="36" Column="28" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
